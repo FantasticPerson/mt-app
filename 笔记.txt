@@ -1,0 +1,25 @@
+1.vue data 为什么是个函数？ 多实例共享
+
+2.Vue.direction
+
+$emit('patch')
+
+@patch="msg"
+
+<slot name="a"></slot>
+
+<h1 slot="a"></h1>
+
+action 提交一个mutation  里面可以是异步操作
+
+
+
+koa2-generator
+
+curl -d "sdsd"
+
+-d 代表post  引号的里面的是post参数
+
+koa-generic-session koa-redies
+
+asyncdata  vuex--fetch
