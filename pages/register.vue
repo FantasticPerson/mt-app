@@ -177,10 +177,7 @@ import CryptoJS from 'crypto-js'
                     password: CryptoJS.MD5(self.ruleForm.pwd).toString(),
                     email: self.ruleForm.email,
                     code: self.ruleForm.code
-                  }).then(({
-                    status,
-                    data
-                  }) => {
+                  }).then(({status,data}) => {
                     if (status === 200) {
                       if (data && data.code === 0) {
                         location.href = '/login'
